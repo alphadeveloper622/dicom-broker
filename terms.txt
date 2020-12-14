@@ -1,0 +1,11 @@
+EMR(Electronic medical records) < EHR(Electronic health records)
+RIS(Radiology Information System) < HIS(Hospital information system)
+HL7 message ORM = The Order Entry (ORM) message --- related to order
+
+IHE(Integrating the Healthcare Enterprise) ----intergrating profile for dicom,hl7,w3c and ssl etc
+
+DIOCM
+ MWL (Modality Work List)
+ MPPS(Modality Performed Procedure Step (medical imaging))
+
+

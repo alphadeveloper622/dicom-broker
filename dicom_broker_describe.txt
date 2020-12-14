@@ -1,0 +1,15 @@
+A broker can be considered the electronic equivalent of a receptionist in a radiology department who takes in all the calls of the people that want to schedule an exam (the HL7 messages) and updates an appointment book (DICOM Modality Worklist). It is a gateway which has a functionality very similar to the interface engines that are common in the IS world.
+
+Other functionalities of the broker include
+
+Communicating with QA stations to provide patient information, which can then be used to correct the patient information of the images before they are sent to the PACS.
+Communicating with a PACS image manager or archive with information about scheduled studies so they can be pre-fetched, if needed.
+It serves sometimes as a temporary depository and/or interface for exchanging diagnostic reports.
+
+disp_mobile_item
+Fatal error: Uncaught Exception: Error: Unknown column 'item_type' in 'field list'<br />Error No: 1054<br />INSERT INTO oc_mega_menu SET name = 'a:2:{i:2;s:13:\"Resimli Kolye\";i:7;s:0:\"\";}', description = 'a:2:{i:2;s:0:\"\";i:7;s:0:\"\";}', icon = 'no_image.png', parent_id = '0', module_id = '2', item_type = '1', show_title = '0', disp_mobile_item = '1', link = 'https://www.hediyevetaki.com/resimli-kolye', new_window = '0', status = '', position = 'left top', submenu_width = '600', rang='1000', content_width='4', content_type='0', content='{\"html\":{\"text\":{\"2\":\"\",\"7\":\"\"}},\"product\":{\"id\":\"\",\"name\":\"\",\"img_w\":\"262\",\"img_h\":\"262\"},\"image\":{\"link\":\"no_image.png\"},\"categories\":{\"categories\":\"[]\",\"columns\":\"1\",\"submenu\":\"1\",\"submenu_columns\":\"1\"}}' in /home/admin/web/hediyevetaki.com/public_html/system/library/db/mysqli.php:40 Stack trace: #0 /home/admin/web/hediyevetaki.com/public_html/storage/modification/system/library/db.php(58): DB\MySQLi->query() #1 /home/admin/web in /home/admin/web/hediyevetaki.com/public_html/system/library/db/mysqli.php on line 40
+
+
+
+
+Fatal error: Uncaught Exception: Error: Unknown column 'item_type' in 'field list'<br />Error No: 1054<br />INSERT INTO oc_mega_menu SET name = 'a:2:{i:2;s:13:\"Resimli Kolye\";i:7;s:0:\"\";}', description = 'a:2:{i:2;s:0:\"\";i:7;s:0:\"\";}', icon = 'no_image.png', parent_id = '0', module_id = '2', item_type = '1', show_title = '0', disp_mobile_item = '1', link = 'https://www.hediyevetaki.com/resimli-kolye', new_window = '0', status = '', position = 'left top', submenu_width = '600', rang='1000', content_width='4', content_type='0', content='{\"html\":{\"text\":{\"2\":\"\",\"7\":\"\"}},\"product\":{\"id\":\"\",\"name\":\"\",\"img_w\":\"262\",\"img_h\":\"262\"},\"image\":{\"link\":\"no_image.png\"},\"categories\":{\"categories\":\"[]\",\"columns\":\"1\",\"submenu\":\"1\",\"submenu_columns\":\"1\"}}' in /home/admin/web/hediyevetaki.com/public_html/system/library/db/mysqli.php:40 Stack trace: #0 /home/admin/web/hediyevetaki.com/public_html/storage/modification/system/library/db.php(58): DB\MySQLi->query() #1 /home/admin/web in /home/admin/web/hediyevetaki.com/public_html/system/library/db/mysqli.php on line 40

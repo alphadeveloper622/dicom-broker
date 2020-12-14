@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://www.snomed.org/snomed-ct/five-step-briefing -->
+<html lang="en"><head id="ctl00_head"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	SNOMED - 5-Step Briefing
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google Tag Manager -->
+        <script type="text/javascript" async="" src="./SNOMED - 5-Step Briefing_files/analytics.js.download"></script><script async="" src="./SNOMED - 5-Step Briefing_files/gtm.js.download"></script><script>(function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer','GTM-MVC93QP');</script>
+        <!-- End Google Tag Manager -->
+    <link rel="stylesheet" type="text/css" href="./SNOMED - 5-Step Briefing_files/fonts.css"><link href="https://www.snomed.org/favicon.ico" rel="shortcut icon" type="image/x-icon"><link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.snomed.org/apple-touch-icon-57x57.png"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.snomed.org/apple-touch-icon-114x114.png"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.snomed.org/apple-touch-icon-72x72.png"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.snomed.org/apple-touch-icon-144x144.png"><link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.snomed.org/apple-touch-icon-60x60.png"><link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.snomed.org/apple-touch-icon-120x120.png"><link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.snomed.org/apple-touch-icon-76x76.png"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.snomed.org/apple-touch-icon-152x152.png"><link rel="icon" type="image/png" href="https://www.snomed.org/favicon-196x196.png" sizes="196x196"><link rel="icon" type="image/png" href="https://www.snomed.org/favicon-96x96.png" sizes="96x96"><link rel="icon" type="image/png" href="https://www.snomed.org/favicon-32x32.png" sizes="32x32"><link rel="icon" type="image/png" href="https://www.snomed.org/favicon-16x16.png" sizes="16x16"><link rel="icon" type="image/png" href="https://www.snomed.org/favicon-128.png" sizes="128x128"><meta name="application-name" content=" "><meta name="msapplication-TileColor" content="#FFFFFF"><meta name="msapplication-TileImage" content="/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="/mstile-310x310.png"><link rel="stylesheet" type="text/css" href="./SNOMED - 5-Step Briefing_files/site_03B50033D0F0856906D6F75943399465.css"><meta name="description" content="A high level overview of what SNOMED CT is, how it works and the benefits of use through implementation examples."> 
+ 
+<meta name="keywords" content="Introduction, Benefits, SNOMED CT, Concepts, Descriptions, Relationships, Use, Implementation Examples, Case Studies"> 
+ 
+<link href="https://www.snomed.org/App_Themes/Default/Images/favicon.ico" type="image/x-icon" rel="shortcut icon">
+<link href="https://www.snomed.org/App_Themes/Default/Images/favicon.ico" type="image/x-icon" rel="icon">
+
+
+        <meta property="og:site_name" content="SNOMED">
+
+        <meta property="og:image" content="">
+        <meta property="og:url" content="">
+        <meta property="og:title" content="">
+        <meta property="og:type" content="">
+
+        <meta name="ROBOTS" content="">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:url" content="">
+        <meta name="twitter:title" content="">
+        
+        <meta name="twitter:image" content="">
+
+    <style></style></head>
+<body class="ty9">
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVC93QP"
+                height="0" width="0" style="display: none; visibility: hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+    <form method="post" action="https://www.snomed.org/snomed-ct/five-step-briefing" id="aspnetForm" class="">
+<div class="aspNetHidden">
+<input type="hidden" name="__CMSCsrfToken" id="__CMSCsrfToken" value="GVMbEL4CW2xGHVHTRP/VK6ohh42kFy570maU6QQkY+Uza2Fx2U5lUjSyPlIJ4PD3BjQ7SbNjnr8FaJ3AAxfF21mmfUpjBcGpHPTh23rFGCA=">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="hAlxSEh2YZCWUJ2MhDK1nvZQjPPzvRMBRV1MhkKVJlhVUYFwdNu7Uvj9KBWtms+NFoO4dCnAaOyGBRmHZK+h7T0CH0koyd0l5Ch41D4/WtWnHdQhTaviBV9Sc30gpDWPXX6KHKQXF5/alF44/vplSHTV1s3W3DZwVbYoy7hasZ7O2hXgRqzh6DI4Rw8FYkWK1wky1D1nGu5hf5d0ADODR9k+YhNAnTyTlXvZNv/0RIayAZCDqJKah8xf+/KL8EyRzJAu2fc14o/0WEyYg83ss0C2yP5KdcabF1MYzKzgjlwAIKi0mDQlZAiLLfLjwRAx3uVgt+EXIq+hMATqkgrFbU2P6V7wwJnfBIoflr2AwQ8nn9j82dhWSyKYFzgdqYYa">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./SNOMED - 5-Step Briefing_files/WebResource.axd" type="text/javascript"></script>
+
+<input type="hidden" name="lng" id="lng" value="en-GB">
+<script src="./SNOMED - 5-Step Briefing_files/jquery-core.js.download" type="text/javascript"></script>
+<script src="./SNOMED - 5-Step Briefing_files/jquery-cmscompatibility.js.download" type="text/javascript"></script>
+<script src="./SNOMED - 5-Step Briefing_files/PredictiveSearch.js.download" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('ctl00$m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('ctl00$m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="./SNOMED - 5-Step Briefing_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./SNOMED - 5-Step Briefing_files/ScriptResource(1).axd" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "language": "en",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDebuggingEnabled": false,
+  "applicationUrl": "/",
+  "isDialog": false,
+  "isRTL": "false"
+};
+
+//]]>
+</script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65B97FBD">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="OOJhE3lNTF/YESMcGw41uP2A38g2QkEFkzaeh6L2Sw+xXdP5pufKGHEH3q5N882M2/YcO2bJ2SbwJRbA19fp8yPICdMuDW/R3KavxhD0beWjCrO3EjWhdfKTmQWYcMi1BM8Cjt6dsgWNMlPxEo4hDQ==">
+</div>
+        <!--
+        
+        
+        
+        
+        
+            -->
+        
+<header class="gutterb2New">
+    <div class="grey-strip">
+        <div class="inner">
+            
+            <a href="https://www.snomed.org/snomed-ct/covid-19" class="ty10 downloadLink">Review our COVID-19 content</a>
+            <div id="SearchPanel" class="hidden absolute">
+                <div id="ctl00_header_search_SearchBox_border" class="WebPartBorder"><div id="ctl00_header_search_SearchBox"><div class="PredictiveSearchBox"><div id="ctl00_header_search_SearchBox_pnlSearch" class="searchBox" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_header_search_SearchBox_btnSearch&#39;)">
+	
+    
+    <input name="ctl00$header$search$SearchBox$txtWord" type="text" maxlength="23" id="ctl00_header_search_SearchBox_txtWord" class="form-control" autocomplete="off">
+    <input type="submit" name="ctl00$header$search$SearchBox$btnSearch" value="Search" id="ctl00_header_search_SearchBox_btnSearch" class="btn btn-default">
+    
+    <div id="ctl00_header_search_SearchBox_pnlPredictiveResultsHolder" class="predictiveSearchHolder"><div id="results_ctl00_header_search_SearchBox" class="predictiveSearchResults" style="display: none;"></div></div>
+
+</div>
+</div></div></div>
+
+                <img src="./SNOMED - 5-Step Briefing_files/search_new.svg" alt="search" id="SubmitSearch" class="pointer">
+                <span id="CloseSearch" class="ty10 pointer">Close search</span>
+            </div>
+
+            <div class="navigation-container floatR" id="secondaryNav">
+                <ul class="secondary-nav list-reset">
+                    
+                    <li class="inline-block phablet-hide"><a href="https://www.snomed.org/" class="ty10" target="_self">Home</a><span class="">|</span></li>
+                    
+                    <li class="inline-block phablet-hide"><a href="https://www.snomed.org/our-organization/our-organization" class="ty10" target="_self">Our organization</a><span class="">|</span></li>
+                    
+                    <li class="inline-block phablet-hide"><a href="https://www.snomed.org/news-and-events/news" class="ty10" target="_self">News</a><span class="">|</span></li>
+                    
+                    <li class="inline-block phablet-hide"><a href="https://www.snomed.org/news-and-events/events" class="ty10" target="_self">Events</a><span class="">|</span></li>
+                    
+                    <li class="inline-block phablet-hide"><a href="https://www.snomed.org/help-center/help-center" class="ty10" target="_self">Help center</a><span class="hide">|</span></li>
+                    
+                </ul>
+                <div class="searchButton">
+                    <span>Search...</span>
+                    <img src="./SNOMED - 5-Step Briefing_files/search_new.svg" alt="search" id="OpenSearch">
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="white-strip">
+        <div class="inner">
+            <a href="https://www.snomed.org/" id="top" class="new-logo">
+                <img src="./SNOMED - 5-Step Briefing_files/SNOMED_logo_200pc.png" class="snomed-logo" alt="Snomed - Leading healthcare terminology worldwide">
+
+            </a>
+
+            <div class="navigation-containerNew floatR">
+                
+                
+                <div class="containerPrimaryNav phablet-hide firstItems" data-menunew="SNOMED International">
+                    <div class="topItem">
+                        <a href="https://www.snomed.org/snomed-ct/five-step-briefing#" class="ty6 blue  phablet-hide topItemA" target="_self">SNOMED International</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-international/who-we-are" class="ty6 blue  phablet-hide" target="_self">Who we are</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-international/our-partners" class="ty6 blue  phablet-hide" target="_self">Our partners</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/our-customers/vendors/marketplace" class="ty6 blue  phablet-hide" target="_self">Our marketplace</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-international/get-involved" class="ty6 blue  phablet-hide" target="_self">Get involved</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-international/how-can-we-help" class="ty6 blue  phablet-hide" target="_self">How can we help?</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-international/learn-more" class="ty6 blue  phablet-hide" target="_self">Learn more</a>
+                    </div>
+                    
+
+                    
+                </div>
+                
+                
+                <div class="containerPrimaryNav phablet-hide firstItems" data-menunew="SNOMED CT">
+                    <div class="topItem">
+                        <a href="https://www.snomed.org/snomed-ct/five-step-briefing#" class="ty6 blue  phablet-hide topItemA" target="_self">SNOMED CT</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-ct/why-snomed-ct" class="ty6 blue  phablet-hide" target="_self">Why SNOMED CT?</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-ct/five-step-briefing" class="ty6 blue  phablet-hide" target="_self">SNOMED CT: a five-step briefing</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-ct/snomed-in-action" class="ty6 blue  phablet-hide" target="_self">SNOMED in Action</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-ct/get-snomed" class="ty6 blue  phablet-hide" target="_self">Get SNOMED CT</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-ct/education" class="ty6 blue  phablet-hide" target="_self">Education</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-ct/software-tools" class="ty6 blue  phablet-hide" target="_self">Software and tools</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/snomed-ct/sct-worldwide" class="ty6 blue  phablet-hide" target="_self">SNOMED CT worldwide</a>
+                    </div>
+                    
+
+                    
+                </div>
+                
+                
+                <div class="containerPrimaryNav phablet-hide last" data-menunew="Our stakeholders">
+                    <div class="topItem">
+                        <a href="https://www.snomed.org/snomed-ct/five-step-briefing#" class="ty6 blue  phablet-hide topItemA" target="_self">Our stakeholders</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/our-stakeholders/members" class="ty6 blue  phablet-hide" target="_self">Members</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/our-stakeholders/clinicians" class="ty6 blue  phablet-hide" target="_self">Clinicians</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/our-stakeholders/vendors" class="ty6 blue  phablet-hide" target="_self">Vendors</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/our-stakeholders/implementers" class="ty6 blue  phablet-hide" target="_self">Implementers</a>
+                    </div>
+                    
+                    <div class="navItem">
+                        <a href="https://www.snomed.org/our-stakeholders/other-stakeholders" class="ty6 blue  phablet-hide" target="_self">Other stakeholders</a>
+                    </div>
+                    
+
+                    
+                </div>
+                
+                <a href="https://www.snomed.org/snomed-ct/home" class="ty6 deep-grey padding1 desktop-hide hamburger" data-menu="mobile">≡</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="relative outer-margin">
+
+        <div class="navigation-container absolute">
+        </div>
+    </div>
+
+    
+<div data-menu="SNOMED International" class="dropdown-primary clearfix bg-light-blue deep-grey mx-auto">
+    <a href="https://www.snomed.org/snomed-ct/five-step-briefing#" class="ty6 deep-grey desktop-hide paddingx1" data-menu="mobile">SNOMED International</a>
+    <div class="sm-hide lg-col lg-col-2">&nbsp;</div>
+    <div class="sm-col sm-col-12 lg-col lg-col-4 paddingx1 first-nav-column">
+        <ul class="list-reset">
+            
+            <li><a href="https://www.snomed.org/snomed-international/who-we-are" class="ty6 deep-grey" target="_self">Who we are</a></li>
+            
+            <li><a href="https://www.snomed.org/snomed-international/our-partners" class="ty6 deep-grey" target="_self">Our partners</a></li>
+            
+            <li><a href="https://www.snomed.org/our-customers/vendors/marketplace" class="ty6 deep-grey" target="_self">Our marketplace</a></li>
+            
+            <li><a href="https://www.snomed.org/snomed-international/get-involved" class="ty6 deep-grey" target="_self">Get involved</a></li>
+            
+            <li><a href="https://www.snomed.org/snomed-international/how-can-we-help" class="ty6 deep-grey" target="_self">How can we help?</a></li>
+            
+            <li><a href="https://www.snomed.org/snomed-international/learn-more" class="ty6 deep-grey" target="_self">Learn more</a></li>
+            
+        </ul>
+    </div>
+    <div class="sm-col sm-col-12 lg-col lg-col-4 second-nav-column">
+        
+        <ul class="list-reset">
+            
+        </ul>
+        
+    </div>
+    <div class="sm-hide lg-col lg-col-2">&nbsp;</div>
+</div>
+
+<div data-menu="SNOMED CT" class="dropdown-primary clearfix bg-light-blue deep-grey mx-auto">
+    <a href="https://www.snomed.org/snomed-ct/five-step-briefing#" class="ty6 deep-grey desktop-hide paddingx1" data-menu="mobile">SNOMED CT</a>
+    <div class="sm-hide lg-col lg-col-2">&nbsp;</div>
+    <div class="sm-col sm-col-12 lg-col lg-col-4 paddingx1 first-nav-column">
+        <ul class="list-reset">
+            
+            <li><a href="https://www.snomed.org/snomed-ct/why-snomed-ct" class="ty6 deep-grey" target="_self">Why SNOMED CT?</a></li>
+            
+            <li><a href="https://www.snomed.org/snomed-ct/five-step-briefing" class="ty6 deep-grey" target="_self">SNOMED CT: a five-step briefing</a></li>
+            
+            <li><a href="https://www.snomed.org/snomed-ct/snomed-in-action" class="ty6 deep-grey" target="_self">SNOMED in Action</a></li>
+            
+            <li><a href="https://www.snomed.org/snomed-ct/get-snomed" class="ty6 deep-grey" target="_self">Get SNOMED CT</a></li>
+            
+            <li><a href="https://www.snomed.org/snomed-ct/education" class="ty6 deep-grey" target="_self">Education</a></li>
+            
+            <li><a href="https://www.snomed.org/snomed-ct/software-tools" class="ty6 deep-grey" target="_self">Software and tools</a></li>
+            
+            <li><a href="https://www.snomed.org/snomed-ct/sct-worldwide" class="ty6 deep-grey" target="_self">SNOMED CT worldwide</a></li>
+            
+        </ul>
+    </div>
+    <div class="sm-col sm-col-12 lg-col lg-col-4 second-nav-column">
+        
+        <ul class="list-reset">
+            
+        </ul>
+        
+    </div>
+    <div class="sm-hide lg-col lg-col-2">&nbsp;</div>
+</div>
+
+<div data-menu="Our stakeholders" class="dropdown-primary clearfix bg-light-blue deep-grey mx-auto">
+    <a href="https://www.snomed.org/snomed-ct/five-step-briefing#" class="ty6 deep-grey desktop-hide paddingx1" data-menu="mobile">Our stakeholders</a>
+    <div class="sm-hide lg-col lg-col-2">&nbsp;</div>
+    <div class="sm-col sm-col-12 lg-col lg-col-4 paddingx1 first-nav-column">
+        <ul class="list-reset">
+            
+            <li><a href="https://www.snomed.org/our-stakeholders/members" class="ty6 deep-grey" target="_self">Members</a></li>
+            
+            <li><a href="https://www.snomed.org/our-stakeholders/clinicians" class="ty6 deep-grey" target="_self">Clinicians</a></li>
+            
+            <li><a href="https://www.snomed.org/our-stakeholders/vendors" class="ty6 deep-grey" target="_self">Vendors</a></li>
+            
+            <li><a href="https://www.snomed.org/our-stakeholders/implementers" class="ty6 deep-grey" target="_self">Implementers</a></li>
+            
+            <li><a href="https://www.snomed.org/our-stakeholders/other-stakeholders" class="ty6 deep-grey" target="_self">Other stakeholders</a></li>
+            
+        </ul>
+    </div>
+    <div class="sm-col sm-col-12 lg-col lg-col-4 second-nav-column">
+        
+        <ul class="list-reset">
+            
+        </ul>
+        
+    </div>
+    <div class="sm-hide lg-col lg-col-2">&nbsp;</div>
+</div>
+
+
+    <div class="dropdown-primary-mobile dropdown-primary clearfix bg-light-blue deep-grey mx-auto" data-menu="mobile">
+        <div class="topBlueSpot">
+            &nbsp;
+        </div>
+        <ul class="primary-nav-mobile list-reset">
+            
+<li class="mobileMainEle marginr1 block fit "><a href="https://www.snomed.org/snomed-ct/five-step-briefing#" class="ty6 white has-secondary" target="_self">SNOMED International</a>
+    <ul class="dropdown-secondary list-reset">
+        
+        <li><a href="https://www.snomed.org/snomed-international/who-we-are" class="ty6 deep-grey" target="_self">Who we are</a></li>
+        
+        <li><a href="https://www.snomed.org/snomed-international/our-partners" class="ty6 deep-grey" target="_self">Our partners</a></li>
+        
+        <li><a href="https://www.snomed.org/our-customers/vendors/marketplace" class="ty6 deep-grey" target="_self">Our marketplace</a></li>
+        
+        <li><a href="https://www.snomed.org/snomed-international/get-involved" class="ty6 deep-grey" target="_self">Get involved</a></li>
+        
+        <li><a href="https://www.snomed.org/snomed-international/how-can-we-help" class="ty6 deep-grey" target="_self">How can we help?</a></li>
+        
+        <li><a href="https://www.snomed.org/snomed-international/learn-more" class="ty6 deep-grey" target="_self">Learn more</a></li>
+        
+    </ul>
+</li>
+
+<li class="mobileMainEle marginr1 block fit "><a href="https://www.snomed.org/snomed-ct/five-step-briefing#" class="ty6 white has-secondary" target="_self">SNOMED CT</a>
+    <ul class="dropdown-secondary list-reset">
+        
+        <li><a href="https://www.snomed.org/snomed-ct/why-snomed-ct" class="ty6 deep-grey" target="_self">Why SNOMED CT?</a></li>
+        
+        <li><a href="https://www.snomed.org/snomed-ct/five-step-briefing" class="ty6 deep-grey" target="_self">SNOMED CT: a five-step briefing</a></li>
+        
+        <li><a href="https://www.snomed.org/snomed-ct/snomed-in-action" class="ty6 deep-grey" target="_self">SNOMED in Action</a></li>
+        
+        <li><a href="https://www.snomed.org/snomed-ct/get-snomed" class="ty6 deep-grey" target="_self">Get SNOMED CT</a></li>
+        
+        <li><a href="https://www.snomed.org/snomed-ct/education" class="ty6 deep-grey" target="_self">Education</a></li>
+        
+        <li><a href="https://www.snomed.org/snomed-ct/software-tools" class="ty6 deep-grey" target="_self">Software and tools</a></li>
+        
+        <li><a href="https://www.snomed.org/snomed-ct/sct-worldwide" class="ty6 deep-grey" target="_self">SNOMED CT worldwide</a></li>
+        
+    </ul>
+</li>
+
+<li class="mobileMainEle marginr1 block fit "><a href="https://www.snomed.org/snomed-ct/five-step-briefing#" class="ty6 white has-secondary" target="_self">Our stakeholders</a>
+    <ul class="dropdown-secondary list-reset">
+        
+        <li><a href="https://www.snomed.org/our-stakeholders/members" class="ty6 deep-grey" target="_self">Members</a></li>
+        
+        <li><a href="https://www.snomed.org/our-stakeholders/clinicians" class="ty6 deep-grey" target="_self">Clinicians</a></li>
+        
+        <li><a href="https://www.snomed.org/our-stakeholders/vendors" class="ty6 deep-grey" target="_self">Vendors</a></li>
+        
+        <li><a href="https://www.snomed.org/our-stakeholders/implementers" class="ty6 deep-grey" target="_self">Implementers</a></li>
+        
+        <li><a href="https://www.snomed.org/our-stakeholders/other-stakeholders" class="ty6 deep-grey" target="_self">Other stakeholders</a></li>
+        
+    </ul>
+</li>
+
+<li class="mobileMainEle marginr1 block fit  mobile-show"><a href="https://www.snomed.org/our-organization/our-organization" class="ty6 white " target="_self">Our organization</a>
+    <ul class="dropdown-secondary list-reset">
+        
+    </ul>
+</li>
+
+<li class="mobileMainEle marginr1 block fit  mobile-show"><a href="https://www.snomed.org/news-and-events/news" class="ty6 white " target="_self">News</a>
+    <ul class="dropdown-secondary list-reset">
+        
+    </ul>
+</li>
+
+<li class="mobileMainEle marginr1 block fit  mobile-show"><a href="https://www.snomed.org/news-and-events/events" class="ty6 white " target="_self">Events</a>
+    <ul class="dropdown-secondary list-reset">
+        
+    </ul>
+</li>
+
+<li class="mobileMainEle marginr1 block fit  mobile-show"><a href="https://www.snomed.org/help-center/help-center" class="ty6 white " target="_self">Help center</a>
+    <ul class="dropdown-secondary list-reset">
+        
+    </ul>
+</li>
+
+        </ul>
+    </div>
+
+
+</header>
+
+
+
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$manScript', 'aspnetForm', ['tctl00$ctxM',''], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <div id="ctl00_ctxM">
+
+</div>
+        <span id="ctl00_lblText"></span>
+        
+    
+<div class="main-carousel slick-initialized slick-slider"><div class="slick-list draggable" style="height: 540px;"><div class="slick-track" style="opacity: 1; width: 1903px; transform: translate3d(0px, 0px, 0px);"><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1903px;"><div><div class="main-carousel-item cover relative carousel-item-item_485" style="width: 100%; display: inline-block;">
+    <div class="carousel-item">
+        <div class="carousel-image"><img src="./SNOMED - 5-Step Briefing_files/5step-briefing.jpg" class="right"></div>
+    </div>
+    <div class="caption">
+        
+    <h1 class="ty1">5-Step Briefing</h1>
+        
+     </div>
+            
+    <style style="display: none">
+    .carousel-item-item_485
+        {
+            background-image: url("/SNOMED/media/SNOMED/main-carousel/5step-briefing.jpg?ext=.jpg");
+        }
+</style>
+</div></div></div></div></div></div>
+
+
+<div class="main-carousel-text clearfix light paddingy30 marginb1">
+    <div class="container mx-auto">
+        <div class="unflex  light">
+            
+        <h1 class="blue mx-auto ty3 heading">This 5-step briefing presents you with a high level overview of what SNOMED CT is, how it works and the benefits of use through implementation examples.</h1>
+            
+        </div>
+    </div>
+</div>
+<div class="clearfix container mx-auto">
+    <div class="noflex article ty9 ">
+        <h2 class="blue">1) Introduction</h2>
+        <div class="ty9">SNOMED CT:
+<ul>
+	<li>Is the <strong>most comprehensive</strong>, multilingual clinical healthcare terminology in the world</li>
+	<li>Is a resource with comprehensive, scientifically <strong>validated clinical content</strong></li>
+	<li>Enables <strong>consistent representation</strong> of clinical content in electronic health records</li>
+	<li>Is <strong>mapped</strong> to other international standards</li>
+	<li>Is in use in <strong>more than eighty countries</strong></li>
+</ul>
+<br>
+The SNOMED CT clinical terminology has unmatched depth, enabling clinicians to record data with enhanced accuracy and consistency. SNOMED CT remains a growing and evolving product made better by the Community of Practice.&nbsp;<br>
+&nbsp;</div>
+        
+        
+
+    </div>
+    
+</div>
+
+
+
+
+<div class="main-carousel-text clearfix dark paddingy30 marginb1">
+    <div class="container mx-auto">
+        <div class="unflex  dark">
+            
+        <h1 class="blue mx-auto ty3 heading">The January 31, 2020 release of the SNOMED CT International Edition included 352,567 concepts.</h1>
+            
+        </div>
+    </div>
+</div>
+<div class="clearfix container mx-auto">
+    <div class="noflex article ty9 ">
+        <h2 class="blue"></h2>
+        <div class="ty9">SNOMED CT supports the development of comprehensive high-quality clinical content in electronic health records. It provides a standardized way to represent clinical phrases captured by the clinician and enables automatic interpretation of these.</div>
+        
+        
+
+    </div>
+    
+</div>
+
+<div class="clearfix container mx-auto accordion-container ">
+    <div class="noflex accordion-outer">
+        <h3 class="ty3"></h3>
+        <div class="accordion-inner">
+            
+<div class="noflex accordion-item">
+    <h4 class="ty3 white">The clinical breadth of SNOMED CT</h4>
+    <div class="accordion-text ty9 bg-light-blue ">
+      SNOMED CT it is not just a coding system of <strong>diagnosis</strong>.<br>
+It also covers other types of <strong>clinical findings</strong> like signs and symptoms. It includes tens of thousands of surgical, therapeutic and <strong>diagnostic procedures</strong>. It includes <strong>observables</strong> (for example heart rate), and also includes concepts representing <strong>body structures</strong>, <strong>organisms</strong>, <strong>substances</strong>, <strong>pharmaceutical products</strong>, <strong>physical objects</strong>, <strong>physical forces</strong>, <strong>specimens</strong> and many other types of information that may need to be recorded in or around the health record.<br>
+<br>
+<strong>The breakdown of concepts by hierarchy </strong>(June 2019)<br>
+<br>
+<img alt="Screen-Shot-2019-06-25-at-10-40-29-AM.png" src="./SNOMED - 5-Step Briefing_files/Screen-Shot-2019-06-25-at-10-40-29-AM.png" style="width: 598px; height: 259px;" title="Screen-Shot-2019-06-25-at-10-40-29-AM.png"><br>
+<br>
+The comprehensive scope of SNOMED CT reduces the need to support multiple incompatible or overlapping code systems in the same health record system. This means SNOMED CT can become the common terminology for consistent communication, retrieval and processing across clinical specialties and between health care facilities at local, national and international levels.<br>
+&nbsp;
+
+        
+        <div class="item-link forward-link dark-link">
+            <a href="mailto:info@snomed.org" class="cta" target="_self">Ask us about the breadth of SNOMED CT</a>
+        </div>
+        
+    </div>
+        
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="clearfix container mx-auto">
+    <div class="noflex article ty9">
+
+        
+        <hr class="grey-solid">
+        
+    </div>
+</div>
+
+
+<div class="clearfix container mx-auto">
+    <div class="noflex article ty9 ">
+        <h2 class="blue">2) How does SNOMED CT work?</h2>
+        <div class="ty9"><p dir="ltr">The SNOMED CT logical model defines the way in which each type of SNOMED CT component and derivative is related and represented.<br>
+<br>
+The core component types in SNOMED CT are concepts, descriptions and relationships.<br>
+Our model specifies how the components can be managed in an implementation setting to&nbsp;meet a variety of primary and secondary uses.</p>
+</div>
+        
+        
+
+    </div>
+    
+</div>
+
+<div class="clearfix container mx-auto accordion-container ">
+    <div class="noflex accordion-outer">
+        <h3 class="ty3"></h3>
+        <div class="accordion-inner">
+            
+<div class="noflex accordion-item">
+    <h4 class="ty3 white">Concepts</h4>
+    <div class="accordion-text ty9 bg-light-blue ">
+      <p dir="ltr">Every concept represents a unique clinical meaning, which is referenced using a unique, numeric and machine readable SNOMED CT identifier. The identifier provides an unambiguous unique reference to each concept and does not have any ascribed human interpretable meaning.<br>
+&nbsp;</p>
+
+
+        
+        <img src="./SNOMED - 5-Step Briefing_files/concept.jpg" alt="" class="fit">
+        
+    </div>
+        
+
+</div>
+<div class="noflex accordion-item">
+    <h4 class="ty3 white">Descriptions</h4>
+    <div class="accordion-text ty9 bg-light-blue ">
+      Two types of description are used to represent every concept – Fully Specified Name (FSN) and Synonym. The FSN represents a unique, unambiguous description of a concept's meaning. This is particularly useful when different concepts are referred to by the same commonly used word or phrase. Each concept can have only one FSN in each language or dialect.<br>
+<br>
+A synonym represents a term that can be used to display or select a concept. A concept may have several synonyms. This allows users of SNOMED CT to use the terms they prefer to refer to a specific clinical meaning.<br>
+&nbsp;
+
+        
+        <img src="./SNOMED - 5-Step Briefing_files/description.jpg" alt="" class="fit">
+        
+    </div>
+        
+
+</div>
+<div class="noflex accordion-item">
+    <h4 class="ty3 white">Relationships</h4>
+    <div class="accordion-text ty9 bg-light-blue ">
+      A relationship represents an association between two concepts. Relationships are used to logically define the meaning of a concept in a way that can be processed by a computer. A third concept, called a relationship type (or attribute), is used to represent the meaning of the association between the source and destination concepts. There are different types of relationships available within SNOMED CT.<br>
+&nbsp;
+
+        
+        <img src="./SNOMED - 5-Step Briefing_files/relationships.jpg" alt="" class="fit">
+        
+    </div>
+        
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="clearfix container mx-auto">
+    <div class="noflex article ty9">
+
+        
+        <hr class="grey-solid">
+        
+    </div>
+</div>
+
+
+<div class="clearfix container mx-auto">
+    <div class="noflex article ty9 ">
+        <h2 class="blue">3) How is SNOMED CT used?</h2>
+        <div class="ty9">SNOMED CT itself is only a part of the solution to addressing the requirements for effective electronic health records. A terminology on its own 'does nothing'. To benefit from use of a clinical terminology, it must be implemented and used as part of an application.<br>
+<br>
+The design of the software application in which it is used, and the objectives and motivation of its users, are key factors in determining success.<br>
+<br>
+SNOMED CT is critical for clinical documentation, as it supports the representation of detailed clinical information in a way that can be processed automatically.<br>
+<br>
+Realization of the capability of SNOMED CT to support clinical information and meaning based retrieval requires careful consideration of the actual setting, in terms of scope of use, record structure, data entry, data retrieval and communication.</div>
+        
+        <img src="./SNOMED - 5-Step Briefing_files/Screen-Shot-2018-08-17-at-11-47-25-AM.png" alt="" class="fit">
+        
+        
+
+    </div>
+    
+</div>
+
+
+
+<div class="clearfix container mx-auto">
+    <div class="noflex article ty9">
+
+        
+        <hr class="grey-solid">
+        
+    </div>
+</div>
+
+
+<div class="clearfix container mx-auto">
+    <div class="noflex article ty9 ">
+        <h2 class="blue">4) Benefits</h2>
+        <div class="ty9"><p dir="ltr">SNOMED CT based clinical information benefits individual patients and clinicians as well as populations while supporting evidence-based care.<br>
+<br>
+The use of an electronic health record improves communication and increases the availability of relevant information. If clinical information is stored in ways that allow meaning-based retrieval, the benefits are greatly increased.&nbsp;<br>
+<br>
+The added benefits range from increased opportunities for real time decision support to more accurate retrospective reporting for research and management.</p>
+</div>
+        
+        
+
+    </div>
+    
+</div>
+
+<div class="clearfix container mx-auto accordion-container ">
+    <div class="noflex accordion-outer">
+        <h3 class="ty3"></h3>
+        <div class="accordion-inner">
+            
+<div class="noflex accordion-item">
+    <h4 class="ty3 white">Benefits to individuals</h4>
+    <div class="accordion-text ty9 bg-light-blue ">
+      <p dir="ltr"><strong>SNOMED CT enabled clinical health records benefit individuals by:</strong></p>
+
+<ul dir="ltr">
+	<li>Enabling clinical information to be recorded consistently</li>
+	<li>Enabling support systems to check the record and provide real-time advice</li>
+	<li>Supporting the sharing of appropriate information with others involved in delivering care, allowing the understanding of the information in a common way by all providers</li>
+	<li>Allowing accurate and comprehensive analysis that identifies patients who require follow-up or changes of treatment</li>
+	<li>Removing language barriers – SNOMED CT enables multilingual use</li>
+</ul>
+
+
+        
+    </div>
+        
+
+</div>
+<div class="noflex accordion-item">
+    <h4 class="ty3 white">Benefits to populations</h4>
+    <div class="accordion-text ty9 bg-light-blue ">
+      <strong>SNOMED CT enabled clinical health records benefit populations by:</strong>
+<ul dir="ltr">
+	<li>Facilitating early identification of emerging health issues, monitoring of population health and responses to changing clinical practices.</li>
+	<li>Enabling accurate and targeted access to relevant information, reducing costly duplications and errors.</li>
+	<li>Enabling the delivery of relevant data to support clinical research and contribute evidence for future improvements in treatment.</li>
+	<li>Enhancing audits of care delivery with options for detailed analysis of clinical records to investigate outliers and exceptions.</li>
+</ul>
+
+
+        
+    </div>
+        
+
+</div>
+<div class="noflex accordion-item">
+    <h4 class="ty3 white">Supporting evidence-based healthcare</h4>
+    <div class="accordion-text ty9 bg-light-blue ">
+      <strong>SNOMED CT enabled clinical health records support evidence-based care by:</strong>
+<ul dir="ltr">
+	<li>Enabling links between clinical records and enhanced clinical guidelines and protocols.</li>
+	<li>Enhancing the quality of care experienced by individuals.</li>
+	<li>Reducing costs of inappropriate and duplicative testing and treatment, limiting the frequency and impact of adverse healthcare events.</li>
+	<li>Raising the cost-effectiveness and quality of care delivered to populations.</li>
+</ul>
+
+
+        
+    </div>
+        
+
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="clearfix container mx-auto">
+    <div class="noflex article ty9">
+
+        
+        <hr class="grey-solid">
+        
+    </div>
+</div>
+
+
+<div class="clearfix container mx-auto">
+    <div class="noflex article ty9 ">
+        <h2 class="blue">5) Implementation examples</h2>
+        <div class="ty9"></div>
+        
+        
+        <div class="item-link forward-link dark-link">
+            <a href="https://www.snomed.org/snomed-ct/snomed-in-action" class="cta ty6" target="_self">Visit SNOMED in Action</a>
+        </div>
+        
+
+    </div>
+    
+</div>
+
+
+
+
+<div class="clearfix container mx-auto casestudies margint1 ">
+    <section class="column">
+        <div class="casestudies-inner   relative clearfix">
+            <h3 class="ty4 px2 blue"></h3>
+            <div class="">
+                
+<div class="casestudy column one-third ">
+    <div class="CaseStudyItem">
+        <div class="relative ">
+            <img src="./SNOMED - 5-Step Briefing_files/Case-Study-7.jpg" alt="feature title" class="fit">
+            <p class="casestudy-text paddingx1 ty7">SNOMED CT in Biobank Networks</p>
+            <div class="item-link bg-blue">
+                <a href="https://www.snomed.org/snomed-ct/case-studies/implementation-of-snomed-ct-in-biobank-networks" class="ty6 white paddingx1 paddingr2 paddingy05 cta" target="_self">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="casestudy column one-third ">
+    <div class="CaseStudyItem">
+        <div class="relative ">
+            <img src="./SNOMED - 5-Step Briefing_files/case-study_test_2.jpg" alt="feature title" class="fit">
+            <p class="casestudy-text paddingx1 ty7">Capturing real time, post operative patient information through synoptic reporting...</p>
+            <div class="item-link bg-blue">
+                <a href="https://www.snomed.org/snomed-ct/case-studies/alberta-web-smr-surgical-medical-record" class="ty6 white paddingx1 paddingr2 paddingy05 cta" target="_self">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="casestudy column one-third ">
+    <div class="CaseStudyItem">
+        <div class="relative ">
+            <img src="./SNOMED - 5-Step Briefing_files/case-study_test_1.jpg" alt="feature title" class="fit">
+            <p class="casestudy-text paddingx1 ty7">Implementing a single EHR system across different hospital sites...</p>
+            <div class="item-link bg-blue">
+                <a href="https://www.snomed.org/snomed-ct/case-studies/hospital-management-tool-that-maintains-snomed-ct" class="ty6 white paddingx1 paddingr2 paddingy05 cta" target="_self">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="clearfix container mx-auto casestudies margint1">
+    <section class="column">
+        <div class="casestudies-inner topbar topbar-blue  relative clearfix">
+        </div>
+    </section>
+</div>
+
+<div class="clearfix container mx-auto">
+    <div class="UsefulBlocks paddingb1 margint1">
+        
+<section class="column one-half">
+    <div class="topbar topbar-yellow bg-super-light-grey relative height100pc">
+        <h3 class="ty4 paddingx1 margin0">Get SNOMED CT</h3>
+        <img src="./SNOMED - 5-Step Briefing_files/34537347_m-(1)-(1).jpg" alt="" class="fit paddingx1 paddingb1">
+        <p class="paddingx1 margint0 ty10 deep-grey">Information on SNOMED International membership and licensing</p>
+        
+        <a href="https://www.snomed.org/snomed-ct/get-snomed" class="ty6 align-right location-cta cta paddingx1 paddingy05" target="_self">Find out more</a>
+        
+    </div>
+</section>
+
+<section class="column one-half">
+    <div class="topbar topbar-red bg-super-light-grey relative height100pc">
+        <h3 class="ty4 paddingx1 margin0">Learn More</h3>
+        <img src="./SNOMED - 5-Step Briefing_files/ourtools.jpg" alt="" class="fit paddingx1 paddingb1">
+        <p class="paddingx1 margint0 ty10 deep-grey">Explore the wide range of resources available to our community of practice</p>
+        
+        <a href="https://www.snomed.org/snomed-international/learn-more" class="ty6 align-right location-cta cta paddingx1 paddingy05" target="_self">More information</a>
+        
+    </div>
+</section>
+
+    </div>
+</div>
+
+
+
+        <div class="">
+            
+            
+            
+<div class="container mx-auto marginb1 margint1 height2 relative">
+    <a href="https://www.snomed.org/snomed-ct/five-step-briefing#top" id="back-to-top" class="back-to-top right visible" style="">top</a>
+</div>
+<footer class="margint1 paddingy2 clearfix footer relative">
+    <div class="footer-inner container mx-auto unflex paddingx1">
+        <div class="feedback-social left mx-auto unflex fit">
+            <div class="left ">
+                <ul class="social list-reset">
+                    <li class="feedback-link inline-block"><a title="Feedback" class="pointer" href="https://www.snomed.org/help-center/help-center"><img src="./SNOMED - 5-Step Briefing_files/btn_feedback.svg"></a></li>
+                    <li class="linkedin inline-block"><a title="LinkedIn" class="pointer" href="https://www.linkedin.com/company/ihtsdo/"><img src="./SNOMED - 5-Step Briefing_files/icon_linked-in.svg"></a></li>
+                    <li class="twitter inline-block"><a title="Twitter" class="pointer" href="https://twitter.com/SnomedCT?lang=en"><img src="./SNOMED - 5-Step Briefing_files/icon_twitter.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mx-auto unflex fit">
+            <ul class="footer-nav list-reset left sm-col sm-col-12 lg-col lg-col-6 padding0 margin0 marginb2 ty10">
+                
+                <li><a href="http://snomed.org/snomedtools-privacy" target="_blank" class="ty10">Privacy</a><span>|</span></li>
+                
+                <li><a href="https://www.snomed.org/Sitemap" target="_self" class="ty10">Sitemap</a><span>|</span></li>
+                
+                <li><a href="https://www.snomed.org/help-center/contact-us" target="_self" class="ty10">Contact us</a><span>|</span></li>
+                
+            </ul>
+            <div class="copyright right-align sm-col sm-col-12 lg-col lg-col-6 ty10">© SNOMED International 2020</div>
+            <div class="ty11 relative bottom marginb2 fit">
+                <div class="footer-info left sm-col sm-col-12 lg-col lg-col-8 align-top">
+                    SNOMED International<br class="xs-hide">
+Registered in England and Wales | Company Registration Number 9915820
+                </div>
+                <a href="http://www.nucleus.co.uk/" target="_blank" class="experience-by-nucleus right-align sm-col sm-col-12 lg-col lg-col-4 table-cell align-bottom ty11">Brand experience by Nucleus</a>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+        </div>
+        
+<div class="container fixed bottom marginy1 bg-dark-grey cookie-notice paddingy1" style="display: none;">
+    <div class="">
+        This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our <a href="http://snomed.org/snomedtools-privacy" target="_blank">Cookie Policy</a>.
+    </div>
+    <button class="ty2 cta agree-button relative">I agree</button>
+</div>
+
+    
+
+<script type="text/javascript">
+	//<![CDATA[
+var predictiveSearchObject_ctl00_header_search_SearchBox = new PredictiveSearchExtender('ctl00_header_search_SearchBox', 'ctl00_header_search_SearchBox_txtWord', 'ctl00_header_search_SearchBox_pnlPredictiveResultsHolder', 2, true, 'selectedResult', 'predictiveSearchResults');
+predictiveSearchObject_ctl00_header_search_SearchBox.CallPredictiveSearch = function(arg, context) { predictiveSearchObject_ctl00_header_search_SearchBox.RecieveSearchResults(callPredictiveSearch(arg), context);}
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+var callBackFrameUrl='/WebResource.axd?d=beToSAE3vdsL1QUQUxjWdYm9fInIfCeKdb0rJ9faepOZZT_X18UjFSZZ6tm1XPBcL-nn97adZiGPexnanU6THA2&t=637103346965614113';
+WebForm_InitCallback();//]]>
+</script>
+</form>
+    <script type="text/javascript" src="./SNOMED - 5-Step Briefing_files/site_7BCECFB3FC905156456FC89256BE521C.js.download"></script>
+
+
+</body></html>

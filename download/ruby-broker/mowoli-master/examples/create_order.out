@@ -1,0 +1,27 @@
+HTTP/1.1 201 Created
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Location: http://localhost:5000/api/v1/orders/500003
+Content-Type: application/json; charset=utf-8
+ETag: W/"2f64f700478eacf90e6bf8231548dcec"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: a22ff93b-5b4f-419e-90b1-5882091aed28
+X-Runtime: 0.351068
+Transfer-Encoding: chunked
+
+{
+   "patient_id" : "674563",
+   "patients_birth_date" : "1952-07-17",
+   "study_instance_uid" : "1.2.826.0.1.3680043.9.5265.2613237192910549087020580940711415207",
+   "accession_number" : "500003",
+   "patients_name" : "Hasselhoff^David^Michael^Mr.^(Knight Rider)",
+   "station" : {
+      "aetitle" : "BLUE4",
+      "name" : "Apple1",
+      "id" : 1,
+      "modality" : "MG"
+   },
+   "id" : 500003,
+   "patients_sex" : "M"
+}

@@ -1,0 +1,24 @@
+de:
+  activerecord:
+    models:
+      modality: 'Modalität'
+      order: 'Auftrag'
+    attributes:
+      modality:
+        name: 'Name'
+        description: 'Beschreibung'
+      order:
+        accession_number: 'Auftragsnummer'
+        patient_id: 'Patienten-ID'
+        patients_birth_date: 'Geburtsdatum des Patienten'
+        patients_name: 'Name des Patienten'
+        patients_sex: 'Geschlecht des Patienten'
+        referring_physicians_name: 'Name des überweisenden Arztes'
+        requested_procedure_description: 'Untersuchungsbeschreibung'
+      station:
+        receives_orders_via_hl7: 'Empfängt Aufträge per HL7?'
+        character_set: 'Zeichensatz'
+        modality: 'Modalität'
+  orders:
+    new:
+      title: 'Neuer Auftrag'

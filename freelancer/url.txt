@@ -1,0 +1,15 @@
+https://medevel.com/10-open-source-pacs-dicom/
+https://www.millensys.com/products/special/broker/index.html
+http://www.cellbeanshealthcare.com/home/modalityWorklist
+https://www.leadtools.com/sdk/medical/pacs?srcorigin=google-cpc-modality%20worklist&MatchType=p&AdPos=&gclid=EAIaIQobChMIg72MxP_i6wIVh6kYCh2RMAKeEAMYASAAEgJck_D_BwE
+
+http://dicomiseasy.blogspot.com/2012/04/dicom-modality-worklist.html
+
+https://stackoverflow.com/questions/25494191/how-can-i-reuse-dcm4chee-code-to-send-patient-data-to-an-equipment
+https://zensnapmd.com/open-source-tools
+https://hapifhir.github.io/hapi-hl7v2/
+
+https://www.hl7.org/documentcenter/public/wg/conf/HL7MSH.htm
+
+
+https://dcm4che.atlassian.net/wiki/spaces/ee2/pages/2555954/Modality+Worklist+SCU
